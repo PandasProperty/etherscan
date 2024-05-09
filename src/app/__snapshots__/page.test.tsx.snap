@@ -17,7 +17,7 @@ exports[`Home page close start polling banner 1`] = `
       </a>
     </p>
     <div
-      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
+      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start text-center md:text-left from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
     >
       <div
         class="px-6 py-4 flex flex-col divide-y divide-slate-600"
@@ -162,7 +162,7 @@ exports[`Home page match initial snapshot 1`] = `
       </a>
     </p>
     <div
-      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
+      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start text-center md:text-left from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
     >
       <div
         class="px-6 py-4 flex flex-col divide-y divide-slate-600"
@@ -307,7 +307,7 @@ exports[`Home page match snapshot with error data  1`] = `
       </a>
     </p>
     <div
-      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
+      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start text-center md:text-left from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
     >
       <div
         class="px-6 py-4 flex flex-col divide-y divide-slate-600"
@@ -468,7 +468,7 @@ exports[`Home page match snapshot with success data 1`] = `
       </a>
     </p>
     <div
-      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
+      class="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start text-center md:text-left from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30"
     >
       <div
         class="px-6 py-4 flex flex-col divide-y divide-slate-600"

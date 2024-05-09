@@ -46,7 +46,7 @@ export default function Home() {
         <a href="https://etherscan.io/" className="font-mono font-bold">etherscan.io</a>
       </p>
 
-      <div className="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30">
+      <div className="w-full lg:max-w-5xl py-6 flex flex-col md:flex-row justify-around items-center md:items-start text-center md:text-left from-inherit border bg-gradient-to-b backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 rounded-xl bg-zinc-800/30">
         <div className="px-6 py-4 flex flex-col divide-y divide-slate-600">
           <p className="text-2xl pb-4">
             Gas prices
