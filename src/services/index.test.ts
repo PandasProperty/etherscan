@@ -13,6 +13,10 @@ import services from '.';
 
 describe("services", () => {
   describe("fetchGasPrices", () => {
+    beforeEach(() => {
+      jest.clearAllMocks();
+    });
+
     it("return error when server request resolves with status not ok", async () => {
       jest.spyOn(global, "fetch").mockImplementationOnce(() =>
         Promise.resolve({
@@ -25,8 +29,6 @@ describe("services", () => {
         error: mockGasPricesServerResponseError.message,
         data: undefined,
       });
-
-      jest.clearAllMocks();
     });
 
     it("return error when server request throws and exception", async () => {
@@ -39,8 +41,6 @@ describe("services", () => {
         error: "Some error.",
         data: undefined,
       });
-
-      jest.clearAllMocks();
     });
 
     it("ignore abort error", async () => {
@@ -52,8 +52,6 @@ describe("services", () => {
 
       const response = await services.fetchGasPrices({ signal: null} as any as AbortController);
       expect(response).toEqual({});
-
-      jest.clearAllMocks();
     });
 
     it("return correct data when server request is successful", async () => {
@@ -72,13 +70,15 @@ describe("services", () => {
           fastGasPrice: mockFastGasPrice
         },
       });
-
-      jest.clearAllMocks();
     });
 
   });
 
   describe("fetchEtherPrice", () => {
+    beforeEach(() => {
+      jest.clearAllMocks();
+    });
+
     it("return error when server request resolves with status not ok", async () => {
       jest.spyOn(global, "fetch").mockImplementationOnce(() =>
         Promise.resolve({
@@ -91,8 +91,6 @@ describe("services", () => {
         error: mockEtherPriceServerResponseError.message,
         data: undefined,
       });
-
-      jest.clearAllMocks();
     });
 
     it("return error when server request throws and exception", async () => {
@@ -105,8 +103,6 @@ describe("services", () => {
         error: "Some error.",
         data: undefined,
       });
-
-      jest.clearAllMocks();
     });
 
     it("ignore abort error", async () => {
@@ -118,8 +114,6 @@ describe("services", () => {
 
       const response = await services.fetchEtherPrice({ signal: null} as any as AbortController);
       expect(response).toEqual({});
-
-      jest.clearAllMocks();  
     });
 
     it("return correct data when server request is successful", async () => {
@@ -137,9 +131,6 @@ describe("services", () => {
           ethusd: mockEthusd
         },
       });
-
-      jest.clearAllMocks();
     });
-    
   });
 });
