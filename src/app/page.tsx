@@ -40,7 +40,7 @@ export default function Home() {
   const etherPriceAreLoading = !etherPrice && !errorEtherPrice;
 
   return (
-    <main className="flex min-h-screen flex-col items-center gap-12 lg:p-24 md:p-12 p-4">
+    <main className="flex min-h-screen flex-col items-center gap-12 lg:p-24 p-16">
       <p className="text-4xl text-center">
         Real time information from &nbsp;
         <a href="https://etherscan.io/" className="font-mono font-bold">etherscan.io</a>
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`fixed bottom-4 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out ${showStartPollingBanner ? "opacity-100" : "opacity-0"}`}>
+      <div className={`fixed lg:bottom-4 bottom-8 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out ${showStartPollingBanner ? "opacity-100" : "opacity-0"}`}>
         <Alert message={`Data will be polled from the server every ${POLLING_INTERVAL / 1000} seconds.`} type="SUCCESS" dataTestId={START_POLLING_BANNER} onClose={hideStartPollingBanner} />
       </div>
     </main>

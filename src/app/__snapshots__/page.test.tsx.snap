@@ -3,7 +3,7 @@
 exports[`Home page close start polling banner 1`] = `
 <DocumentFragment>
   <main
-    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 md:p-12 p-4"
+    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 p-16"
   >
     <p
       class="text-4xl text-center"
@@ -83,7 +83,7 @@ exports[`Home page close start polling banner 1`] = `
       </div>
     </div>
     <div
-      class="fixed bottom-4 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
+      class="fixed lg:bottom-4 bottom-8 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
     >
       <div
         class="flex items-center w-full max-w-lg p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
@@ -148,7 +148,7 @@ exports[`Home page close start polling banner 1`] = `
 exports[`Home page match initial snapshot 1`] = `
 <DocumentFragment>
   <main
-    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 md:p-12 p-4"
+    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 p-16"
   >
     <p
       class="text-4xl text-center"
@@ -228,7 +228,7 @@ exports[`Home page match initial snapshot 1`] = `
       </div>
     </div>
     <div
-      class="fixed bottom-4 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
+      class="fixed lg:bottom-4 bottom-8 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
     >
       <div
         class="flex items-center w-full max-w-lg p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
@@ -293,7 +293,7 @@ exports[`Home page match initial snapshot 1`] = `
 exports[`Home page match snapshot with error data  1`] = `
 <DocumentFragment>
   <main
-    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 md:p-12 p-4"
+    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 p-16"
   >
     <p
       class="text-4xl text-center"
@@ -389,7 +389,7 @@ exports[`Home page match snapshot with error data  1`] = `
       </div>
     </div>
     <div
-      class="fixed bottom-4 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
+      class="fixed lg:bottom-4 bottom-8 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
     >
       <div
         class="flex items-center w-full max-w-lg p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
@@ -454,7 +454,7 @@ exports[`Home page match snapshot with error data  1`] = `
 exports[`Home page match snapshot with success data 1`] = `
 <DocumentFragment>
   <main
-    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 md:p-12 p-4"
+    class="flex min-h-screen flex-col items-center gap-12 lg:p-24 p-16"
   >
     <p
       class="text-4xl text-center"
@@ -540,7 +540,7 @@ exports[`Home page match snapshot with success data 1`] = `
       </div>
     </div>
     <div
-      class="fixed bottom-4 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
+      class="fixed lg:bottom-4 bottom-8 right-4 max-w-[80%] transition-opacity duration-5000 ease-in-out opacity-100"
     >
       <div
         class="flex items-center w-full max-w-lg p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
