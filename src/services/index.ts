@@ -9,8 +9,6 @@ export async function fetchGasPrices(abortController: AbortController): Promise<
   searchParams.set('apikey', process.env.NEXT_PUBLIC_ETHER_SCAN_API_KEY!);
   let url = new URL(`${baseUrl}?${searchParams.toString()}`)
 
-  console.log('url', url.href);
-
   try {
     const response = await fetch(url.href, {
       signal: abortController.signal,
