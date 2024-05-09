@@ -4,6 +4,7 @@ type GasPricesResult = {
   ProposeGasPrice: string;
   FastGasPrice: string;
   suggestBaseFee: string;
+  gasUsedRatio: string;
 };
 
 type EtherPriceResult = {

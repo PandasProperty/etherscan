@@ -1,5 +1,6 @@
 export default interface AlerProps {
+  dataTestId: string;
   message: string;
-  type: 'ERROR' | 'SUCCESS';
+  type: "ERROR" | "SUCCESS";
   onClose?: () => void;
 }
